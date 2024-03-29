@@ -6,4 +6,4 @@
 # of python3 with me my friend.
 
 #(contact) if you have any questions i am available to help by direct message
-# via git hub Username:Zaylon10 or Email: Freemanzaylon548@gmail.com
+# via github Username:Zaylon10 or Email: Freemanzaylon548@gmail.com
