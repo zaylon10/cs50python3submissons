@@ -1,24 +1,23 @@
-#get user input
-text = input("File name: ")
-#convert input to lower with .lower string method
-text1 = text.lower()
-#create function that involves branching/ produces desired outcome w/ paramater
+# user input
+user = input("")
+#create function that involves branching to get desired output
 def mediatype(user):
-    if ".jpeg" in user:
-        print("image/jpeg")
-    elif "jpg" in user:
-        print("image/jpeg")
-    elif ".png" in user:
-        print("image/png")
-    elif ".gif" in user:
-        print("image/gif")
-    elif ".pdf" in user:
-        print("application/pdf")
-    elif ".txt" in user:
-        print("text/plain")
-    elif ".zip" in user:
-        print("application/zip")
+    user = user.lower().strip()
+    if user.endswith(".gif"):
+        return print("image/gif")
+    elif user.endswith(".jpeg"):
+        return print("image/jpeg")
+    elif user.endswith(".jpg"):
+        return print("image/jpeg")
+    elif user.endswith(".png"):
+        return print("image/png")
+    elif user.endswith(".pdf"):
+        return print("application/pdf")
+    elif user.endswith(".txt"):
+        return print("text/plain")
+    elif user.endswith(".zip"):
+        return print("application/zip")
     else:
-        print("application/octet-stream")
-#call function w/ arg
-mediatype(text1)
+        print("application/octec-stream")
+# call function with input variable as arg
+mediatype(user)
